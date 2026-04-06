@@ -713,6 +713,246 @@ export const platformContent: Record<string, PlatformContent> = {
       phoneDisplay: "1-800-555-1234",
     },
   },
+
+  // ===========================================================================
+  // Contractor Prequalification (General Landing Page)
+  // ===========================================================================
+  "contractor-prequalification": {
+    platformName: "Contractor Prequalification",
+    trademark: "Contractor Prequalification",
+    slug: "contractor-prequalification",
+
+    hero: {
+      eyebrow: "Contractor Prequalification Services",
+      headline:
+        "Failing Prequalification? We Get Contractors Approved.",
+      subheadline:
+        "Stop losing jobs because of paperwork. JJ Safety has helped 7,000+ contractors pass prequalification on ISNetworld, Avetta, Veriforce, and more \u2014 approved in weeks, not months.",
+    },
+
+    trustMetrics: [
+      { value: "7,000+", label: "Contractors Approved", icon: "users" },
+      { value: "Nationwide", label: "Coverage", icon: "globe" },
+      { value: "100%", label: "Acceptance Guarantee", icon: "shield-check" },
+    ],
+
+    painPoints: [
+      {
+        icon: "x",
+        title: "Losing Contracts to Paperwork",
+        description:
+          "You won the job \u2014 but you can't start because you're stuck in a prequalification system you've never seen before. The clock is ticking and your client is waiting.",
+      },
+      {
+        icon: "file-text",
+        title: "Hundreds of Confusing Questions",
+        description:
+          "ISNetworld, Avetta, and Veriforce questionnaires ask for safety programs, policies, and documentation you don't have. One wrong answer and you're rejected.",
+      },
+      {
+        icon: "clock",
+        title: "Months of Back-and-Forth",
+        description:
+          "You've been submitting documents for weeks and keep getting rejections with vague feedback. You don't have time to become a compliance expert.",
+      },
+      {
+        icon: "briefcase",
+        title: "No Safety Manual or Programs",
+        description:
+          "Your hiring company requires a written safety manual and programs but you've never had to create one before. Building these from scratch feels impossible.",
+      },
+    ],
+
+    video: {
+      headline: "See How JJ Safety Gets Contractors Prequalified Fast",
+      placeholder: "Video: Contractor Prequalification Explainer (2-3 min)",
+      description:
+        "Learn how we've helped 7,000+ contractors navigate ISNetworld, Avetta, Veriforce, and other prequalification platforms. See our process and guarantee.",
+      ctaText: "Get Your Free Assessment",
+    },
+
+    steps: [
+      {
+        number: 1,
+        title: "Call Us for a Free Assessment",
+        description:
+          "Tell us which platform you need and your deadline. We'll assess your situation and give you a clear roadmap \u2014 no obligation, no pressure.",
+      },
+      {
+        number: 2,
+        title: "We Handle Everything",
+        description:
+          "Our compliance experts write your safety manuals, complete questionnaires, prepare RAVS documentation, and upload everything to your account.",
+      },
+      {
+        number: 3,
+        title: "You Get Approved & Start Working",
+        description:
+          "Pass prequalification and start winning contracts. We provide weekly account maintenance to keep your compliance grades as high as possible.",
+      },
+    ],
+
+    benefits: [
+      {
+        icon: "shield-check",
+        title: "ISNetworld (ISN) Compliance",
+        description:
+          "Complete questionnaire assistance, RAVS documentation, safety program writing, and insurance uploads. 100% acceptance guarantee on all submissions.",
+      },
+      {
+        icon: "award",
+        title: "Avetta Certification",
+        description:
+          "Full Avetta account setup, documentation, and grade optimization. We help contractors achieve A and B ratings to win bigger contracts.",
+      },
+      {
+        icon: "check-circle",
+        title: "Veriforce Compliance",
+        description:
+          "Operator-specific compliance documentation, audit preparation, training coordination, and ongoing management across all your Veriforce operators.",
+      },
+      {
+        icon: "file-text",
+        title: "Safety Manual Writing",
+        description:
+          "Custom safety programs and manuals written to platform-specific standards. Not templates \u2014 tailored documents for your industry and operations.",
+      },
+      {
+        icon: "target",
+        title: "RAVS & Document Management",
+        description:
+          "Review and Verification Services preparation, document formatting, uploading, and revision handling. We manage the entire submission process.",
+      },
+      {
+        icon: "calendar",
+        title: "Ongoing Compliance Management",
+        description:
+          "Weekly account maintenance, expiration tracking, annual renewals, and proactive updates. Your dedicated account manager visits your account weekly.",
+      },
+    ],
+
+    testimonials: [
+      {
+        quote:
+          "We were about to lose a huge contract because we couldn't figure out ISNetworld. JJ Safety had us approved in 5 days. They wrote our entire safety manual and handled everything. Lifesaver.",
+        name: "Carlos Mendez",
+        company: "Mendez Industrial Services",
+        role: "Owner",
+        rating: 5,
+        image: "placeholder",
+      },
+      {
+        quote:
+          "I didn't even know what Avetta was until my client told me I needed it to keep working. JJ Safety walked me through the whole process and got us compliant fast. Highly recommend.",
+        name: "Jennifer Walsh",
+        company: "Walsh Mechanical LLC",
+        role: "Operations Manager",
+        rating: 5,
+        image: "placeholder",
+      },
+      {
+        quote:
+          "JJ Safety manages our prequalification on three different platforms. They handle ISNetworld, Avetta, AND Veriforce for us. One less thing I have to worry about running my business.",
+        name: "Robert Kim",
+        company: "Kim Environmental Solutions",
+        role: "President",
+        rating: 5,
+        image: "placeholder",
+      },
+    ],
+
+    clientLogos: [
+      { name: "ISNetworld", placeholder: "Logo: ISNetworld" },
+      { name: "Avetta", placeholder: "Logo: Avetta" },
+      { name: "Veriforce", placeholder: "Logo: Veriforce" },
+      { name: "Compliance Pro", placeholder: "Logo: Compliance Pro" },
+      { name: "BROWZ", placeholder: "Logo: BROWZ" },
+    ],
+
+    included: [
+      {
+        title: "Complete Platform Setup & Questionnaires",
+        description:
+          "Expert completion of all prequalification questionnaires on ISNetworld, Avetta, Veriforce, and other platforms.",
+      },
+      {
+        title: "Custom Safety Manual & Programs",
+        description:
+          "Written safety manuals and programs tailored to your industry that meet all platform requirements.",
+      },
+      {
+        title: "RAVS Documentation & Uploads",
+        description:
+          "All Review and Verification Services documentation prepared, formatted, and uploaded to your account.",
+      },
+      {
+        title: "Insurance Coordination",
+        description:
+          "Certificate of insurance management, uploads, and tracking to keep your compliance current.",
+      },
+      {
+        title: "Dedicated Account Manager",
+        description:
+          "Your personal compliance specialist with direct phone and email access throughout the process.",
+      },
+      {
+        title: "Weekly Account Maintenance",
+        description:
+          "Your account manager checks your account at minimum once per week to maintain the highest possible grades.",
+      },
+      {
+        title: "Revision & Rejection Handling",
+        description:
+          "If any submission is rejected, we fix and resubmit at no additional cost. 100% acceptance guarantee.",
+      },
+      {
+        title: "Annual Renewal Management",
+        description:
+          "Proactive renewal tracking and handling so you never lose your compliant status.",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "How much does contractor prequalification cost?",
+        answer:
+          "Our pricing depends on your company size, the platforms you need, and the complexity of your operations. We offer a free, no-obligation assessment where we'll review your requirements and provide a transparent quote. Most clients find our services pay for themselves by winning just one additional contract.",
+      },
+      {
+        question: "How quickly can I get approved?",
+        answer:
+          "Most contractors are approved within 2-4 weeks depending on the platform and complexity. ISNetworld submissions can be completed in as little as 3-5 business days. We also offer rush service for urgent contract deadlines.",
+      },
+      {
+        question: "Which prequalification platforms do you support?",
+        answer:
+          "We support all major contractor prequalification platforms including ISNetworld (ISN), Avetta, Veriforce, Compliance Pro (formerly PEC Safety), BROWZ, and others. If your hiring company uses a platform we haven't listed, call us \u2014 chances are we've worked with it.",
+      },
+      {
+        question: "What if I get rejected after you submit?",
+        answer:
+          "Our 100% Acceptance Guarantee means we handle all rejections and resubmissions at no additional cost. We fix the issues and resubmit until you're approved. In our experience, rejections are rare because we prepare documentation to each platform's exact specifications.",
+      },
+      {
+        question: "Do I need a safety manual? Can you write one for me?",
+        answer:
+          "Most prequalification platforms require a written safety manual and specific safety programs. Yes, we write custom safety manuals tailored to your industry and operations \u2014 not generic templates. These documents are written to meet platform-specific requirements.",
+      },
+      {
+        question: "Do you help with ongoing compliance or just the initial setup?",
+        answer:
+          "Both. Many clients start with initial prequalification and then choose our ongoing management service. Your dedicated account manager visits your account at minimum once per week, tracks expiring documents, handles renewals, and keeps your grades as high as possible.",
+      },
+    ],
+
+    finalCta: {
+      headline: "Ready to Pass Prequalification?",
+      subheadline:
+        "Don't let compliance paperwork cost you contracts. Call us today for a free assessment or fill out the form below. Join 7,000+ contractors who trust JJ Safety.",
+      phone: "18332777022",
+      phoneDisplay: "(833) 277-7022",
+    },
+  },
 };
 
 // =============================================================================
