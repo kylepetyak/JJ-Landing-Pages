@@ -5,7 +5,7 @@
 /**
  * Supported compliance platforms
  */
-export type Platform = "isnetworld" | "veriforce" | "avetta";
+export type Platform = "isnetworld" | "veriforce" | "avetta" | "contractor-prequalification";
 
 /**
  * Icon names from Lucide React
@@ -200,6 +200,7 @@ export interface LeadFormData {
   email: string;
   phone: string;
   company?: string;
+  platform?: string;
   message?: string;
   // Hidden UTM fields
   utmSource?: string;

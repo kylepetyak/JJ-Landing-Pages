@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, CheckCircle, ExternalLink } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 import { getAllPlatforms, platformContent } from "@/lib/content";
 
 /**
@@ -37,13 +37,13 @@ export default function HomePage() {
             JJ Safety Landing Page Templates
           </h2>
           <p className="text-lg text-gray-600">
-            High-converting landing page templates for ISNetworld, Veriforce, and
-            Avetta compliance services. Click any template to preview.
+            High-converting landing page templates for contractor compliance services.
+            Click any template to preview.
           </p>
         </div>
 
         {/* Template cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
           {platforms.map((platform) => {
             const content = platformContent[platform];
             return (

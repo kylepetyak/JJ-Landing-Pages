@@ -19,6 +19,10 @@ interface HeroSectionProps {
   trustMetrics: TrustMetric[];
   platformName: string;
   className?: string;
+  phone?: string;
+  phoneDisplay?: string;
+  showPlatformSelect?: boolean;
+  formHeadline?: string;
 }
 
 // Icon mapping for trust metrics
@@ -42,6 +46,10 @@ export function HeroSection({
   trustMetrics,
   platformName,
   className,
+  phone,
+  phoneDisplay,
+  showPlatformSelect = false,
+  formHeadline,
 }: HeroSectionProps) {
   return (
     <section
@@ -93,6 +101,20 @@ export function HeroSection({
               })}
             </div>
 
+            {/* Phone number - visible above the fold when provided */}
+            {phone && phoneDisplay && (
+              <div className="mb-6">
+                <a
+                  href={`tel:${phone}`}
+                  className="inline-flex items-center gap-3 text-xl lg:text-2xl font-bold text-primary hover:text-primary-dark transition-colors"
+                >
+                  <Phone className="w-6 h-6" />
+                  {phoneDisplay}
+                </a>
+                <p className="text-sm text-gray-500 mt-1">Call for a free assessment</p>
+              </div>
+            )}
+
             {/* Mobile CTA - shown on mobile only */}
             <div className="lg:hidden mb-8">
               <a
@@ -116,10 +138,11 @@ export function HeroSection({
           <div className="lg:col-span-5" id="contact-form">
             <div className="lg:sticky lg:top-8">
               <LeadForm
-                headline={`Start Your ${platformName} Certification`}
+                headline={formHeadline || `Start Your ${platformName} Certification`}
                 subheadline="Get a free assessment in 24 hours"
                 ctaText="Get My Free Assessment"
                 showMessage={false}
+                showPlatformSelect={showPlatformSelect}
               />
             </div>
           </div>
