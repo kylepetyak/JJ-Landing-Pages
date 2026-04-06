@@ -10,13 +10,24 @@ interface FinalCTAProps {
   platformName: string;
   className?: string;
   showPlatformSelect?: boolean;
+  showMessage?: boolean;
+  messageLabel?: string;
+  messagePlaceholder?: string;
 }
 
 /**
  * Final CTA section - Creates urgency and provides final push to action.
  * Includes both phone number and form for maximum conversion options.
  */
-export function FinalCTA({ content, platformName, className, showPlatformSelect = false }: FinalCTAProps) {
+export function FinalCTA({
+  content,
+  platformName,
+  className,
+  showPlatformSelect = false,
+  showMessage = false,
+  messageLabel,
+  messagePlaceholder,
+}: FinalCTAProps) {
   return (
     <section
       className={clsx(
@@ -80,7 +91,9 @@ export function FinalCTA({ content, platformName, className, showPlatformSelect 
               subheadline="Free assessment • No obligation"
               ctaText="Start My Certification"
               variant="dark"
-              showMessage={false}
+              showMessage={showMessage}
+              messageLabel={messageLabel}
+              messagePlaceholder={messagePlaceholder}
               showPlatformSelect={showPlatformSelect}
             />
           </div>

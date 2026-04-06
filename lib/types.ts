@@ -5,7 +5,7 @@
 /**
  * Supported compliance platforms
  */
-export type Platform = "isnetworld" | "veriforce" | "avetta" | "contractor-prequalification";
+export type Platform = "isnetworld" | "veriforce" | "avetta" | "contractor-prequalification" | "safety-manuals";
 
 /**
  * Icon names from Lucide React

@@ -13,6 +13,8 @@ interface LeadFormProps {
   ctaText?: string;
   variant?: "default" | "compact" | "dark";
   showMessage?: boolean;
+  messageLabel?: string;
+  messagePlaceholder?: string;
   showPlatformSelect?: boolean;
   platformOptions?: string[];
 }
@@ -28,6 +30,8 @@ export function LeadForm({
   ctaText = "Get Started Now",
   variant = "default",
   showMessage = true,
+  messageLabel = "How can we help?",
+  messagePlaceholder = "Tell us about your compliance needs...",
   showPlatformSelect = false,
   platformOptions = [
     "ISNetworld",
@@ -356,14 +360,14 @@ export function LeadForm({
         {showMessage && (
           <div className="mb-6">
             <label htmlFor="message" className={labelStyles}>
-              How can we help?
+              {messageLabel}
             </label>
             <textarea
               id="message"
               name="message"
               value={formData.message}
               onChange={handleChange}
-              placeholder="Tell us about your compliance needs..."
+              placeholder={messagePlaceholder}
               rows={3}
               className={clsx(inputStyles, "resize-none")}
             />
