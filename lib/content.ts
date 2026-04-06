@@ -953,6 +953,246 @@ export const platformContent: Record<string, PlatformContent> = {
       phoneDisplay: "(833) 277-7022",
     },
   },
+
+  // ===========================================================================
+  // Safety Manuals & Written Programs
+  // ===========================================================================
+  "safety-manuals": {
+    platformName: "Safety Manuals",
+    trademark: "Safety Manuals & Written Programs",
+    slug: "safety-manuals",
+
+    hero: {
+      eyebrow: "Custom Safety Documentation Services",
+      headline:
+        "Custom Safety Manuals for Contractors \u2014 Written by Compliance Experts",
+      subheadline:
+        "Need a safety manual to win work? We write custom safety programs tailored to your operations \u2014 not templates. OSHA-compliant documentation that passes ISNetworld, Avetta, and client audits.",
+    },
+
+    trustMetrics: [
+      { value: "7,000+", label: "Contractors Served", icon: "users" },
+      { value: "OSHA", label: "Compliant Programs", icon: "shield-check" },
+      { value: "100%", label: "Platform Acceptance", icon: "check-circle" },
+    ],
+
+    painPoints: [
+      {
+        icon: "file-text",
+        title: "Client Requires Written Safety Programs",
+        description:
+          "Your GC or hiring company is asking for a safety manual and written programs you don't have. You need professional documentation to start the job.",
+      },
+      {
+        icon: "x",
+        title: "Templates Keep Getting Rejected",
+        description:
+          "You downloaded a template but it doesn't match your operations and keeps failing audits. Generic documents don't pass compliance reviews.",
+      },
+      {
+        icon: "briefcase",
+        title: "No Safety Staff to Write These",
+        description:
+          "You're running a business, not a safety department. You don't have the time or expertise to write OSHA-compliant safety documentation from scratch.",
+      },
+      {
+        icon: "clock",
+        title: "Deadline Pressure",
+        description:
+          "You need these documents yesterday. Your contract is on hold until you submit compliant safety programs, and you can't afford more delays.",
+      },
+    ],
+
+    video: {
+      headline: "See How We Create Custom Safety Documentation",
+      placeholder: "Video: Safety Manual Writing Process (2-3 min)",
+      description:
+        "Learn how our compliance experts write custom safety manuals and programs that pass audits and meet platform requirements. See our process.",
+      ctaText: "Get Your Free Assessment",
+    },
+
+    steps: [
+      {
+        number: 1,
+        title: "Tell Us About Your Operations",
+        description:
+          "We learn about your company, your work activities, and your specific compliance requirements. This ensures your documents accurately reflect what you do.",
+      },
+      {
+        number: 2,
+        title: "We Write Your Custom Programs",
+        description:
+          "Our safety experts write professional, OSHA-compliant documentation tailored to your operations \u2014 not generic templates that don't fit your business.",
+      },
+      {
+        number: 3,
+        title: "You Pass Compliance & Win Work",
+        description:
+          "Submit your custom safety manual to clients, GCs, or compliance platforms. Pass audits and start winning contracts that require proper documentation.",
+      },
+    ],
+
+    benefits: [
+      {
+        icon: "file-text",
+        title: "Company Safety Manuals",
+        description:
+          "Comprehensive health & safety programs covering your company policies, procedures, and OSHA requirements. The foundation of your safety program.",
+      },
+      {
+        icon: "target",
+        title: "Site-Specific Safety Plans (SSSPs)",
+        description:
+          "Custom safety plans for specific job sites, projects, or clients. Addresses unique hazards and requirements for each work location.",
+      },
+      {
+        icon: "alert-circle",
+        title: "Hazard Communication Programs",
+        description:
+          "OSHA-compliant HazCom programs including chemical safety, SDS management, labeling requirements, and employee training procedures.",
+      },
+      {
+        icon: "briefcase",
+        title: "Job Safety Analyses (JSAs)",
+        description:
+          "Task-specific hazard analyses that break down job steps, identify hazards, and document controls. Required by many clients and GCs.",
+      },
+      {
+        icon: "shield-check",
+        title: "Fall Protection Plans",
+        description:
+          "Written fall protection programs for work at heights, including equipment requirements, inspection procedures, and rescue plans.",
+      },
+      {
+        icon: "check-circle",
+        title: "Any Custom Program You Need",
+        description:
+          "Substance abuse policies, emergency action plans, confined space procedures, respiratory protection \u2014 we write whatever your client or platform requires.",
+      },
+    ],
+
+    testimonials: [
+      {
+        quote:
+          "I needed a safety manual for a big GC contract and had no idea where to start. JJ Safety wrote our entire program in a week. We passed the audit on the first try and got the job.",
+        name: "Mike Hernandez",
+        company: "Hernandez Concrete LLC",
+        role: "Owner",
+        rating: 5,
+        image: "placeholder",
+      },
+      {
+        quote:
+          "We were using a template that kept getting rejected by ISNetworld. JJ Safety rewrote our programs from scratch and everything was accepted immediately. Should have called them first.",
+        name: "Angela Torres",
+        company: "Torres Electrical Services",
+        role: "Operations Manager",
+        rating: 5,
+        image: "placeholder",
+      },
+      {
+        quote:
+          "Professional, thorough, and they actually understand construction safety. Our custom safety manual from JJ Safety has helped us win multiple contracts with major clients.",
+        name: "Steve Mitchell",
+        company: "Mitchell Industrial Group",
+        role: "President",
+        rating: 5,
+        image: "placeholder",
+      },
+    ],
+
+    clientLogos: [
+      { name: "ISNetworld", placeholder: "Logo: ISNetworld" },
+      { name: "Avetta", placeholder: "Logo: Avetta" },
+      { name: "Veriforce", placeholder: "Logo: Veriforce" },
+      { name: "OSHA", placeholder: "Logo: OSHA Compliant" },
+      { name: "BROWZ", placeholder: "Logo: BROWZ" },
+    ],
+
+    included: [
+      {
+        title: "Custom Safety Manual",
+        description:
+          "A comprehensive company safety manual tailored to your operations, industry, and compliance requirements.",
+      },
+      {
+        title: "OSHA-Compliant Programs",
+        description:
+          "Written programs that meet OSHA regulatory requirements for your specific work activities and hazards.",
+      },
+      {
+        title: "Platform-Ready Formatting",
+        description:
+          "Documents formatted and organized for ISNetworld RAVS uploads, Avetta, or any compliance platform.",
+      },
+      {
+        title: "Client-Specific Requirements",
+        description:
+          "Programs written to meet your specific client, GC, or hiring company requirements.",
+      },
+      {
+        title: "Revisions Until Accepted",
+        description:
+          "If your documents need changes to pass an audit, we revise them at no additional cost.",
+      },
+      {
+        title: "Expert Consultation",
+        description:
+          "Direct access to safety compliance experts who can answer questions about your documentation needs.",
+      },
+      {
+        title: "Digital & Print-Ready Files",
+        description:
+          "Receive your documents in editable formats (Word) and PDF for easy distribution and printing.",
+      },
+      {
+        title: "Annual Update Service",
+        description:
+          "Optional annual reviews and updates to keep your programs current with changing regulations.",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "How much does a custom safety manual cost?",
+        answer:
+          "Pricing depends on your company size, industry, and what programs you need. We offer a free assessment to understand your requirements and provide a transparent quote. Most contractors find the investment pays for itself by winning contracts that require proper documentation.",
+      },
+      {
+        question: "How long does it take to write a safety manual?",
+        answer:
+          "Most safety manuals are completed within 1-2 weeks. Simple programs can be done in a few days, while comprehensive manuals with multiple specialized programs may take slightly longer. We offer rush service for urgent deadlines.",
+      },
+      {
+        question: "Why can't I just use a template?",
+        answer:
+          "Templates are generic and don't reflect your actual operations. Clients, auditors, and compliance platforms can tell when you're using a template that doesn't match your work. Custom programs pass audits because they accurately describe what your company does and how you manage safety.",
+      },
+      {
+        question: "What if my client's requirements change?",
+        answer:
+          "We include revisions to ensure your documents meet requirements. If a client or auditor requests changes, we update your programs at no additional cost until they're accepted.",
+      },
+      {
+        question: "Do you update safety manuals annually?",
+        answer:
+          "Yes, we offer an annual update service to keep your programs current with changing OSHA regulations and industry best practices. Many clients add this to their ongoing compliance management with us.",
+      },
+      {
+        question: "Can you write programs for ISNetworld RAVS?",
+        answer:
+          "Absolutely. Many of our clients need safety programs specifically for ISNetworld RAVS (Review and Verification Services). We write programs to ISNetworld's exact specifications and have a 100% acceptance rate.",
+      },
+    ],
+
+    finalCta: {
+      headline: "Ready to Get Your Safety Manual?",
+      subheadline:
+        "Don't let missing documentation cost you contracts. Call us today for a free assessment. We'll write custom safety programs that pass audits and help you win work.",
+      phone: "18332777022",
+      phoneDisplay: "(833) 277-7022",
+    },
+  },
 };
 
 // =============================================================================

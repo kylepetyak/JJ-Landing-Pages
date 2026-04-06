@@ -23,6 +23,9 @@ interface HeroSectionProps {
   phoneDisplay?: string;
   showPlatformSelect?: boolean;
   formHeadline?: string;
+  showMessage?: boolean;
+  messageLabel?: string;
+  messagePlaceholder?: string;
 }
 
 // Icon mapping for trust metrics
@@ -50,6 +53,9 @@ export function HeroSection({
   phoneDisplay,
   showPlatformSelect = false,
   formHeadline,
+  showMessage = false,
+  messageLabel,
+  messagePlaceholder,
 }: HeroSectionProps) {
   return (
     <section
@@ -141,7 +147,9 @@ export function HeroSection({
                 headline={formHeadline || `Start Your ${platformName} Certification`}
                 subheadline="Get a free assessment in 24 hours"
                 ctaText="Get My Free Assessment"
-                showMessage={false}
+                showMessage={showMessage}
+                messageLabel={messageLabel}
+                messagePlaceholder={messagePlaceholder}
                 showPlatformSelect={showPlatformSelect}
               />
             </div>
