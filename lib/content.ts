@@ -1193,6 +1193,246 @@ export const platformContent: Record<string, PlatformContent> = {
       phoneDisplay: "(833) 277-7022",
     },
   },
+
+  // ===========================================================================
+  // Compliance Pro (Formerly PEC Safety)
+  // ===========================================================================
+  "compliance-pro": {
+    platformName: "Compliance Pro",
+    trademark: "Compliance Pro\u00AE (Formerly PEC Safety)",
+    slug: "compliance-pro",
+
+    hero: {
+      eyebrow: "Compliance Pro\u00AE / PEC Safety Services",
+      headline:
+        "Compliance Pro Giving You Trouble? We Get Oil & Gas Contractors Approved.",
+      subheadline:
+        "Stop losing field work because of prequalification headaches. JJ Safety has helped thousands of contractors pass Compliance Pro (formerly PEC Safety) \u2014 with the safety documentation, questionnaires, and training verification your operators demand.",
+    },
+
+    trustMetrics: [
+      { value: "7,000+", label: "Contractors Served", icon: "users" },
+      { value: "Oil & Gas", label: "Industry Experts", icon: "target" },
+      { value: "100%", label: "Acceptance Guarantee", icon: "shield-check" },
+    ],
+
+    painPoints: [
+      {
+        icon: "x",
+        title: "Operator Won't Let You On Site",
+        description:
+          "Your crew is ready to work but the operator says you're not compliant. Every day off the job site is money walking out the door \u2014 and your competition is taking your place.",
+      },
+      {
+        icon: "file-text",
+        title: "Drowning in Documentation Requirements",
+        description:
+          "PEC wants safety manuals, training records, questionnaires, and policies you've never even heard of. The platform keeps asking for more documents and nothing seems to satisfy them.",
+      },
+      {
+        icon: "clock",
+        title: "SafeLand & Training Verification Nightmare",
+        description:
+          "Tracking down training certificates for every worker, making sure SafeLand is current, verifying MSTQ Core compliance \u2014 it's a full-time job you don't have time for.",
+      },
+      {
+        icon: "briefcase",
+        title: "No Safety Director On Staff",
+        description:
+          "Big operators can afford compliance departments. You're running a lean crew and wearing every hat. You need an expert who knows exactly what PEC/Compliance Pro requires.",
+      },
+    ],
+
+    video: {
+      headline: "See How We Handle Compliance Pro For You",
+      placeholder: "Video: Compliance Pro / PEC Safety Explainer (2-3 min)",
+      description:
+        "Watch how JJ Safety helps oil & gas contractors navigate Compliance Pro requirements and get approved fast. No more guessing what operators want.",
+      ctaText: "Get Your Free Assessment",
+    },
+
+    steps: [
+      {
+        number: 1,
+        title: "Tell Us Your Operator Requirements",
+        description:
+          "Call us and tell us which operators you need to work for. We know exactly what each one requires in Compliance Pro \u2014 we've done this thousands of times.",
+      },
+      {
+        number: 2,
+        title: "We Handle Everything",
+        description:
+          "Safety manuals, PEC questionnaires, training documentation, SafeLand verification \u2014 we prepare everything and upload it to your account. You focus on your business.",
+      },
+      {
+        number: 3,
+        title: "You Get Approved & Get Back to Work",
+        description:
+          "Pass Compliance Pro prequalification and get your crew back on site. We maintain your account so you stay compliant and never get shut out again.",
+      },
+    ],
+
+    benefits: [
+      {
+        icon: "file-text",
+        title: "Complete Questionnaire Assistance",
+        description:
+          "We handle the PEC Standardized Safety Questionnaire and all operator-specific questions. Expert answers that pass audits the first time.",
+      },
+      {
+        icon: "shield-check",
+        title: "Custom Safety Manual Writing",
+        description:
+          "Written safety programs that meet Compliance Pro requirements and your specific operators' standards. Not templates \u2014 documents built for your operations.",
+      },
+      {
+        icon: "award",
+        title: "Training Documentation & Verification",
+        description:
+          "SafeLand, SafeGulf, MSTQ Core \u2014 we verify training records, track certifications, and ensure your workforce documentation is always current.",
+      },
+      {
+        icon: "target",
+        title: "Operator-Specific Compliance",
+        description:
+          "Different operators have different requirements. We know what majors and independents want and customize your compliance package accordingly.",
+      },
+      {
+        icon: "calendar",
+        title: "Ongoing Account Maintenance",
+        description:
+          "We monitor your Compliance Pro account weekly, track expiring documents, and handle renewals before they become problems.",
+      },
+      {
+        icon: "headphones",
+        title: "Dedicated Compliance Expert",
+        description:
+          "Your personal account manager knows oil & gas compliance inside and out. Direct phone and email access whenever you need help.",
+      },
+    ],
+
+    testimonials: [
+      {
+        quote:
+          "We lost a big drilling contract because we couldn't figure out PEC. Called JJ Safety on Monday, had our account compliant by Friday. Been using them ever since.",
+        name: "Ray Dominguez",
+        company: "Dominguez Oilfield Services",
+        role: "Owner",
+        rating: 5,
+        image: "placeholder",
+      },
+      {
+        quote:
+          "Managing training records for 40 guys was a nightmare. JJ Safety took over our Compliance Pro account and now I never worry about it. They handle everything.",
+        name: "Chris Landry",
+        company: "Landry Well Services LLC",
+        role: "Operations Manager",
+        rating: 5,
+        image: "placeholder",
+      },
+      {
+        quote:
+          "The operators we work for kept asking for more documentation. JJ Safety knew exactly what they needed and got us approved fast. Worth every penny.",
+        name: "Maria Santos",
+        company: "Santos Energy Solutions",
+        role: "Safety Coordinator",
+        rating: 5,
+        image: "placeholder",
+      },
+    ],
+
+    clientLogos: [
+      { name: "Compliance Pro", placeholder: "Logo: Compliance Pro" },
+      { name: "Veriforce", placeholder: "Logo: Veriforce" },
+      { name: "SafeLandUSA", placeholder: "Logo: SafeLandUSA" },
+      { name: "SafeGulf", placeholder: "Logo: SafeGulf" },
+      { name: "ISNetworld", placeholder: "Logo: ISNetworld" },
+    ],
+
+    included: [
+      {
+        title: "Complete PEC Questionnaire",
+        description:
+          "Expert completion of the PEC Standardized Safety Questionnaire and all operator-specific compliance questions.",
+      },
+      {
+        title: "Custom Safety Programs",
+        description:
+          "Written safety manuals and programs tailored to oil & gas operations and your specific operators' requirements.",
+      },
+      {
+        title: "Training Record Management",
+        description:
+          "SafeLand, SafeGulf, and MSTQ Core verification. We track and upload all training documentation.",
+      },
+      {
+        title: "Document Upload & Organization",
+        description:
+          "All compliance documentation properly formatted and uploaded to your Compliance Pro account.",
+      },
+      {
+        title: "Operator-Specific Requirements",
+        description:
+          "Compliance packages customized for each operator you need to work with \u2014 majors and independents.",
+      },
+      {
+        title: "Weekly Account Monitoring",
+        description:
+          "Your account manager checks your Compliance Pro status weekly and addresses issues proactively.",
+      },
+      {
+        title: "Expiration Tracking & Renewals",
+        description:
+          "We track expiring certifications and documents and handle renewals before they impact your compliance.",
+      },
+      {
+        title: "Revision Guarantee",
+        description:
+          "If an operator or auditor requests changes, we revise and resubmit at no additional cost until approved.",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What is Compliance Pro and how is it different from PEC Safety?",
+        answer:
+          "Compliance Pro is the same platform as PEC Safety \u2014 it was rebranded after being acquired by Veriforce. If your operator requires PEC or Compliance Pro prequalification, we can help you get compliant on the platform regardless of what they call it.",
+      },
+      {
+        question: "How quickly can I get Compliance Pro compliant?",
+        answer:
+          "Most contractors are compliant within 1-2 weeks, depending on what documentation you already have. If you have an urgent deadline, we offer rush service to get you approved faster. Call us and we'll assess your situation.",
+      },
+      {
+        question: "Do you handle SafeLand and SafeGulf training verification?",
+        answer:
+          "Yes. We verify all training records including SafeLand, SafeGulf, MSTQ Core, and any operator-specific training requirements. We track certifications and alert you before they expire.",
+      },
+      {
+        question: "What if different operators have different requirements?",
+        answer:
+          "We customize your compliance package for each operator. We know what the majors want versus independents, and we make sure your Compliance Pro account satisfies all of them.",
+      },
+      {
+        question: "Do you write safety manuals for oil & gas operations?",
+        answer:
+          "Absolutely. We write custom safety manuals and programs specifically for oil & gas contractors. These aren't templates \u2014 they're tailored to your operations and meet both PEC/Compliance Pro requirements and your operators' specific standards.",
+      },
+      {
+        question: "What happens after I'm approved?",
+        answer:
+          "We offer ongoing account maintenance. Your dedicated account manager monitors your Compliance Pro status weekly, tracks expiring documents, handles renewals, and keeps your compliance grades high so you never get shut out of work.",
+      },
+    ],
+
+    finalCta: {
+      headline: "Ready to Get Compliance Pro Approved?",
+      subheadline:
+        "Stop losing work to prequalification problems. Call now for a free assessment \u2014 we'll tell you exactly what you need and how fast we can get you compliant. Join thousands of oil & gas contractors who trust JJ Safety.",
+      phone: "18332777022",
+      phoneDisplay: "(833) 277-7022",
+    },
+  },
 };
 
 // =============================================================================
